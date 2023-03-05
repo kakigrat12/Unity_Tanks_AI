@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] private Rigidbody _rigidbody;
+
     void Start()
     {
         
